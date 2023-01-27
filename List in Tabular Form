@@ -1,0 +1,7 @@
+# Display list in tabular format
+
+li = [23,345,67,11,10,566]
+print(f'Index Value')
+
+for i in range(len(li)):
+    print(f'  {i}  |  {li[i]}')
